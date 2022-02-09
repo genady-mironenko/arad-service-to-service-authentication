@@ -64,3 +64,5 @@ private static string Sign(string privateKey, string text)
     return Convert.ToBase64String(signedText);
 }
 ```
+
+Send the token to {domain}/auth/token in `Authorization: Bearer {TOKEN}` header
