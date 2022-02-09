@@ -65,4 +65,4 @@ private static string Sign(string privateKey, string text)
 }
 ```
 
-Send the token to {domain}/auth/token in `Authorization: Bearer {TOKEN}` header
+Send GET request wtih the token to {domain}/auth/token in `Authorization: Bearer {TOKEN}` header
