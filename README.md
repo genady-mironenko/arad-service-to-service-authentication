@@ -28,7 +28,7 @@ public class Payload
 }
 ```
 
-Create JWT token and that will be excanched for access token
+Create JWT token that will be excanched for access token
 1. Convert the header to base 64 string
 2. Convert the payload to base 64 string
 3. Sign the header + (.) + payload with RSA private key and SHA1 hash algorithm
