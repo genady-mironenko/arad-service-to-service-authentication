@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AradTechnology.Examples", "AradTechnology.Examples\AradTechnology.Examples.csproj", "{8619A808-2371-497B-AE10-0650A8728211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{DFE7D82C-B490-4189-B430-B91AAC93C122}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8619A808-2371-497B-AE10-0650A8728211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8619A808-2371-497B-AE10-0650A8728211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8619A808-2371-497B-AE10-0650A8728211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8619A808-2371-497B-AE10-0650A8728211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE7D82C-B490-4189-B430-B91AAC93C122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE7D82C-B490-4189-B430-B91AAC93C122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE7D82C-B490-4189-B430-B91AAC93C122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE7D82C-B490-4189-B430-B91AAC93C122}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93CACFA6-F93D-4F39-BE40-FC53542D30C6}
+	EndGlobalSection
+EndGlobal
