@@ -19,12 +19,12 @@ namespace Authentication.JWT
 
             var payloadBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(JsonSerializer.Serialize(payload)));
 
-            var signatureBase64 = Sing(privateKey, $"{headerBase64}{payloadBase64}");
+            var signatureBase64 = Sign(privateKey, $"{headerBase64}{payloadBase64}");
 
             return $"{headerBase64}.{payloadBase64}.{signatureBase64}";
         }
 
-        private static string Sing(string privateKey, string text)
+        private static string Sign(string privateKey, string text)
         {
             byte[] signedText;
 
