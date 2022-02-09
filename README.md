@@ -14,6 +14,11 @@ public class Header
     [JsonPropertyName("typ")]
     public string Type { get; set; } = "JWT";
 }
+
+{
+   "alg": "SHA",
+   "typ": "JWT"
+}
 ```
 
 JWT payload structure
@@ -25,6 +30,11 @@ public class Payload
 
     [JsonPropertyName("accountId")]
     public string AccountId { get; set; } = string.Empty;
+}
+
+{
+    "applicationId": "{application id}",
+    "accountId": "{account id}"
 }
 ```
 
