@@ -14,7 +14,8 @@ public class Header
     [JsonPropertyName("typ")]
     public string Type { get; set; } = "JWT";
 }
-
+```
+```JSON
 {
    "alg": "SHA",
    "typ": "JWT"
@@ -31,7 +32,8 @@ public class Payload
     [JsonPropertyName("accountId")]
     public string AccountId { get; set; } = string.Empty;
 }
-
+```
+```JSON
 {
     "applicationId": "{application id}",
     "accountId": "{account id}"
