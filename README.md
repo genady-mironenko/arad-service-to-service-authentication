@@ -16,7 +16,7 @@ public class Header
 }
 ```
 
-JWT header payload
+JWT payload structure
 ```C#
 public class Payload
 {
