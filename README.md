@@ -17,7 +17,7 @@ public class Header
 ```
 ```JSON
 {
-   "alg": "SHA",
+   "alg": "RSA",
    "typ": "JWT"
 }
 ```
